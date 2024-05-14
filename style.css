@@ -1,0 +1,156 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(42, 177, 42);
+}
+
+li {
+    list-style: none;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    gap: 30px;
+    position: relative;
+    right: 50px;
+}
+
+.logo {
+    width: 50px;
+    padding: 3px;
+}
+
+.retour {
+    width: 50px;
+    height: 50px;
+    padding: 4px;
+}
+
+.head {
+    background-color: rgb(230, 227, 227);
+    text-align: center;
+    height: 200px;
+    padding: 50px;
+}
+
+.message {
+    width: 450px;
+    position: relative;
+    left: 400px;
+}
+
+.image {
+    width: 40px;
+}
+
+.mini-para {
+    width: 800px;
+}
+
+.small-div1 {
+    display: inline-flex;
+    justify-content: space-between;
+    gap: 70px;
+    padding: 20px;
+    position: relative;
+    left: 300px;
+}
+
+.big-div {
+    background-color: rgb(241, 240, 239);
+}
+
+.small-div1-1 {
+    width: 200px;
+    text-align: center;
+}
+
+.image-produit {
+    width: 60px;
+}
+
+.small-div2 {
+    display: inline-flex;
+    justify-content: space-between;
+    gap: 70px;
+    padding: 20px;
+    position: relative;
+    left: 300px;
+    border-top: solid rgb(160, 159, 159) 1px;
+}
+
+.carre {
+    background-color: brown;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 50px;
+}
+
+h3 {
+    color: brown;
+}
+
+.div-btn {
+    text-align: center;
+}
+
+.btn {
+    background-color: brown;
+    border: none;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 4px 2px;
+    border-radius: 5px;
+    width: 90px;
+}
+
+.form {
+    background-color: cadetblue;
+    text-align: center;
+}
+
+.formulaire {
+    display: block;
+    margin: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bout1 {
+    background-color: crimson;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    margin: 15px;
+    font-weight: bold;
+}
+
+.bout2 {
+    background-color: green;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    margin: 15px;
+    font-weight: bold;
+}
+
+.nav-contact {
+    display: flex;
+    justify-content: space-between;
+}
